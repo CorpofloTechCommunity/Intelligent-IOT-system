@@ -1,9 +1,7 @@
-import graphene
-
-from .farm import FarmQueries
+from .farm import FarmQueries, FarmMutations
 
 class RootFarmQueries(FarmQueries):
     pass
 
-class RootFarmMutations:
+class RootFarmMutations(FarmMutations):
     pass
