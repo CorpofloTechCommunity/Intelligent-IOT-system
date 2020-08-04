@@ -1,0 +1,21 @@
+type Farm {
+id: ID
+name: String
+pressure: Int
+speed: Int
+soil_content: Int
+}
+
+type Query {
+allFarms (search): [Farm]
+farm (id: ID, name: String, slug: String): Farm
+}
+
+type Mutation {
+
+}
+
+type Schema {
+query: Query
+mutation: Mutation
+}
