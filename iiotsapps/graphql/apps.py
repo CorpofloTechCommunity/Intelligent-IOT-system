@@ -3,7 +3,7 @@ from django.utils.translation import gettext_lazy as _
 
 
 class GraphQLConfig(AppConfig):
-    name = 'fmsapps.graphql'
-    label = 'fms_graphql'
-    verbose_name = _('FMS GraphQL')
+    name = 'iiotsapps.graphql'
+    label = 'iiots_graphql'
+    verbose_name = _('IIOTS GraphQL')
     models_module = None
