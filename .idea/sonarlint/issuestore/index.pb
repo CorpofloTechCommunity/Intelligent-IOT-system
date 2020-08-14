@@ -23,3 +23,13 @@ I
 iiots_project/settings.py,4\5\45709b0cfe68157d8f8873524e5c4b0812a29e2d
 @
 requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+[
++iiotsapps/graphql/farms/queries/__init__.py,5\8\5892de29f5dca703edec719a31c90e140fb301d4
+W
+'iiotsapps/graphql/farms/schemas/farm.py,c\c\ccff4ecbe705298056191b41f93219c71c04ebf8
+[
++iiotsapps/graphql/farms/schemas/__init__.py,1\c\1c8fecb0eec444c9684232901eb01106265407bc
+N
+iiotsapps/farms/models/farm.py,7\0\70311863f93bb5c8c5c1fc97d12108f0b7c405e7
+V
+&iiotsapps/graphql/farms/inputs/farm.py,8\e\8e868393b8f24e5402048a4df173ae9da0267543

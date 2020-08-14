@@ -5,13 +5,13 @@ from django.utils.translation import gettext_lazy as _
 
 class BaseFarmInput(graphene.InputObjectType):
     name = graphene.String(description=_('Name of the farm'))
-    slug = graphene.String(description=_('slug identifier for farm'))
-    ph = graphene.Int(description=_('pH of farm soil'))
-    speed = graphene.Int(description=_('pH of farm soil'))
-    temperature = graphene.Int(description=_('temperature of farm'))
-    humidity = graphene.Int(description=_('humidity of farm environment'))
-    pressure = graphene.Int(description=_('pressure of soil'))
-    soil_content = graphene.Int(description=_('soil water content'))
+    slug = graphene.String(description=_('Slug identifier for farm'))
+    ph = graphene.Decimal(description=_('pH of farm soil'))
+    speed = graphene.Int(description=_('Wind speed of farm'))
+    temperature = graphene.Decimal(description=_('Temperature of farm'))
+    humidity = graphene.Int(description=_('Humidity of farm environment'))
+    pressure = graphene.Int(description=_('Pressure of soil'))
+    soil_content = graphene.Int(description=_('Soil water content'))
 
 
 class EditFarmInput(graphene.InputObjectType):
